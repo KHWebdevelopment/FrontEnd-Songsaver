@@ -1,0 +1,112 @@
+body {
+  font-family: 'open sans', sans-serif;
+  font-size: 14px;
+  width: 90%;
+  margin: auto;
+}
+
+.bg {
+  background-color: lightgoldenrodyellow;
+}
+
+h1 {
+  text-align: center;
+}
+
+nav {
+  width: 100%;
+}
+
+button {
+  border-radius: 3px;
+  border: #aaa 1px solid;
+  padding: 0.5em;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: crimson;
+}
+  
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead th {
+  text-align: left;
+  padding: 0.5em;
+  border-bottom: 2px solid black;
+}
+
+thead button {
+  font-size: 10px;
+  margin-left: 0.5em;
+  cursor: pointer;
+}
+
+th {
+  padding: 0.5em;
+}
+
+tbody td {
+  padding: 0.5em;
+  border: 1px solid #ddd;
+}
+
+tbody tr:nth-child(even) {background: #eee}
+tbody tr:nth-child(odd) {background: #FFF}
+
+form input, form select {
+  width: auto;
+  margin: 0.2em;
+  padding: 0.5em;
+  cursor: pointer;
+  width: 20%;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 2em;
+  background-color: #000;
+  align-items: center;
+  padding: 0.5em;
+}
+
+label {
+  font-weight: bolder;
+  color: #FFF;
+  width: 100%;
+}
+
+nav ul {
+  list-style: none;
+  height: 40px;
+}
+
+a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+a:hover {
+  color: crimson;
+}
+
+.editform {
+  width: 70%;
+  margin: auto;
+}
+.editform select, .editform input {
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+footer {
+  text-align: center;
+}
+
+
+  
